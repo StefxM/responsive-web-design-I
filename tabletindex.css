@@ -124,5 +124,25 @@ p {
 /* */
 
 @media (max-width: 800px) {
+	.topofpage {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.roundpic {
+		display: none;
+	}
+	.roundpiccage {
+		display: flex;
+		flex-direction: column;
+	}
+	.twocolumns {
+		display: flex;
+		flex-direction: column;
+	}
+	.threecolumns {
+		display: flex;
+		flex-direction: column;
+	}
 
 }

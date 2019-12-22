@@ -123,6 +123,29 @@ p {
 
 /* */
 
-@media (max-width: 800px) {
-
+@media (max-width: 500px) {
+	.topofpage {
+		display: flex;
+		flex-direction: column;
+	}
+	.navbar {
+		display: flex;
+		flex-direction: column;
+		margin: 10%;
+	}
+	.roundpic {
+		display: none;
+	}
+	.roundpiccage {
+		display: flex;
+		flex-direction: column;
+	}
+	.twocolumns {
+		display: flex;
+		flex-direction: column;
+	}
+	.threecolumns {
+		display: flex;
+		flex-direction: column;
+	}
 }
