@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 .topofpage {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 nav {
@@ -76,25 +76,37 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 2%;
+    padding: 25px 1%;
     font-size: 14px;
 }
 .logo {
 	padding-left: 25px;
 }
 
+/* TOP PART*/
+
 .innovation {
-	display: flex;
 	flex-direction: column;
+}
+
+.fakebutton {
+	border: 2px solid black;
+	width: 8%;
+	height: 60%;
+}
+.combo {
+	margin: 14%;
+	flex-direction: row;
 }
 
 .twocolumns {
 	display: flex;
 	padding: 5%;
+	flex-direction: row;
 }
 
-.roundpiccage {
-	padding-left: 20%;
+.roundpic {
+	padding-left: 55%;
 }
 
 .middle-img {
@@ -102,4 +114,15 @@ nav {
 }
 .threecolumns {
 	display: flex;
+}
+
+p {
+	content: 2%;
+}
+
+
+/* */
+
+@media (max-width: 800px) {
+
 }
